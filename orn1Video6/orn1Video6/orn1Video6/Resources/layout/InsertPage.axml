@@ -3,28 +3,24 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:text="Insert Page Title "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblInsertTitle" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txtUserName" />
+        android:id="@+id/txtInsertUserName" />
     <EditText
-        android:inputType="textPassword"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/TxtPassworName" />
+        android:id="@+id/txtInsertPassword" />
     <Button
-        android:text="Login"
+        android:text="Insert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnLogin" />
-    <Button
-        android:text="Insert Page"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_Goto_Insert_page" />
-    <Button
-        android:text="ListPage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnListGoser_Main" />
+        android:id="@+id/btnInsert" />
 </LinearLayout>

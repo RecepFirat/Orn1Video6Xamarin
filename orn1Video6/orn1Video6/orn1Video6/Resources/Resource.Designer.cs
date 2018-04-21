@@ -44,14 +44,38 @@ namespace orn1Video6
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int TxtPassworName = 2130968577;
+			// aapt resource value: 0x7f040007
+			public const int TxtPassworName = 2130968583;
 			
-			// aapt resource value: 0x7f040002
-			public const int btnLogin = 2130968578;
+			// aapt resource value: 0x7f040003
+			public const int btnInsert = 2130968579;
+			
+			// aapt resource value: 0x7f04000a
+			public const int btnListGoser_Main = 2130968586;
+			
+			// aapt resource value: 0x7f040008
+			public const int btnLogin = 2130968584;
+			
+			// aapt resource value: 0x7f040009
+			public const int btn_Goto_Insert_page = 2130968585;
 			
 			// aapt resource value: 0x7f040000
-			public const int txtUserName = 2130968576;
+			public const int lblInsertTitle = 2130968576;
+			
+			// aapt resource value: 0x7f040005
+			public const int lblUserName = 2130968581;
+			
+			// aapt resource value: 0x7f040004
+			public const int lstPerson = 2130968580;
+			
+			// aapt resource value: 0x7f040002
+			public const int txtInsertPassword = 2130968578;
+			
+			// aapt resource value: 0x7f040001
+			public const int txtInsertUserName = 2130968577;
+			
+			// aapt resource value: 0x7f040006
+			public const int txtUserName = 2130968582;
 			
 			static Id()
 			{
@@ -67,7 +91,16 @@ namespace orn1Video6
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			public const int InsertPage = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int listpage = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int loginPage = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int Main = 2130837507;
 			
 			static Layout()
 			{
